@@ -1,0 +1,24 @@
+# Project files and IDE metadata
+^.*\.Rproj$
+^\.Rproj\.user$
+
+# Development-only docs and repo metadata
+^LICENSE\.md$
+^README\.Rmd$
+^README-.*\.png$
+^cran-comments\.md$
+^\.github$
+
+# Package build and check artifacts
+^.*\.tar\.gz$
+^.*\.Rcheck$
+^.*\.Rcheck/?
+
+# Local-only analysis assets
+^data-raw$
+^inst/figures$
+^inst/results$
+
+# Generated vignette intermediates
+^vignettes/.*\.html$
+^vignettes/.*\.R$

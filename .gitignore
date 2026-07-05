@@ -1,0 +1,37 @@
+# R session and IDE metadata
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+
+# OS/editor noise
+.DS_Store
+
+# Package build and check artifacts
+/*.tar.gz
+/*.Rcheck/
+/*.Rcheck
+
+# Native build products
+src/*.o
+src/*.so
+src/*.dll
+src/*.dylib
+src/*.exe
+src/*.a
+src/*.lib
+src/*.dSYM/
+
+# Generated documentation
+man/*.html
+Meta/
+inst/doc/
+
+# Local data and analysis outputs
+data-raw/*.rds
+data-raw/*.RData
+data-raw/*.rda
+inst/figures/
+inst/results/
+inst/extdata/
